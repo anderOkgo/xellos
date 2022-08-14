@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Xeproperties from "./components/Xeproperties.";
+import Xeproperties from "./components/Xeproperties";
+import Xestate from "./components/Xestate";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
             obj={{ name: "ander" }}
             fun={(x) => x * x}
           ></Xeproperties>
+          <hr />
+          <Xestate></Xestate>
         </section>
       </header>
     </div>
