@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Xeproperties from "./components/Xeproperties";
 import Xestate from "./components/Xestate";
+import XeconditionalRender from "./components/XeconditionalRender";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           ></Xeproperties>
           <hr />
           <Xestate></Xestate>
+          <XeconditionalRender></XeconditionalRender>
         </section>
       </header>
     </div>
